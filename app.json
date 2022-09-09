@@ -49,7 +49,7 @@
         "required": true
       },
       "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
+        "description": "A name for your Music Bot. You can use special characters bot",
         "value": "ᬊᬁ࿔•Ⓥⓘⓥⓘ•࿐ᴍᴜsɪᴄ​",
         "required": false
       },
