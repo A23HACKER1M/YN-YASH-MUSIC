@@ -45,7 +45,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/kakashi_bots_updates")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/kakashi_bots_group")
+    "SUPPORT_GROUP", "https://t.me/kakashi_bots_support")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
