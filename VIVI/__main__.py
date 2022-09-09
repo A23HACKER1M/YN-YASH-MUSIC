@@ -8,7 +8,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 import config
 from config import BANNED_USERS
 from VIVI import LOGGER, app, userbot
-from VIVI.core.call import Anon
+from VIVI.core.call import VIV
 from VIVI.plugins import ALL_MODULES
 from VIVI.utils.database import get_banned_users, get_gbanned
 
