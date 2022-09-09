@@ -75,8 +75,8 @@ node(){
 
 repo(){
 	# Get git repo if the installer is runned standalone
-	[[ ! "AnonXMusic" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
-	git clone https://github.com/AnonymousR1025/AnonXMusic &&  cd AnonXMusic
+	[[ ! "VIVI-MUSIC-ROBOT" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
+	git clone https://github.com/Siddharth721/VIVI-MUSIC-ROBOT &&  cd VIVI-MUSIC-ROBOT
 }
 
 
@@ -90,7 +90,7 @@ installation(){
 }
 
 clear
-pprint "Welcome to AnonXMusic Setup Installer\n\n"
+pprint "Welcome to VIVI-MUSIC-ROBOT Setup Installer\n\n"
 pprint "If you see any error during Installation Process, Please refer to these files for logs: "
 pprint "\nFor node js errors , Checkout nodelog.txt"
 pprint "\nFor pypi packages errors , Checkout pypilog.txt"
@@ -103,7 +103,7 @@ packages
 node
 repo
 installation
-pprint "\n\n\n\n\nAnonX Music Installation Completed!" "cgreen"
+pprint "\n\n\n\n\nVIVI Music Installation Completed!" "cgreen"
 sleep 4
 clear
 
