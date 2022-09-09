@@ -6,7 +6,7 @@ from pyrogram.types import CallbackQuery, Message
 from config import BANNED_USERS, MUSIC_BOT_NAME, adminlist, lyrical
 from strings import get_command
 from VIVI import app
-from VIVI.core.call import Anon
+from VIVI.core.call import VIV
 from VIVI.misc import db
 from VIVI.utils.database import get_authuser_names, get_cmode
 from VIVI.utils.decorators import (ActualAdminCB, AdminActual,
