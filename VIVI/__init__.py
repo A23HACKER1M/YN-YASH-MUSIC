@@ -23,7 +23,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = AnonXBot()
+app = VIVIBot()
 
 # Assistant Client
 userbot = Userbot()
