@@ -326,7 +326,7 @@ async def play_commnd(
             return await mystic.delete()
         else:
             try:
-                await Anon.stream_call(url)
+                await VIV.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(
                     "ᴛʜᴇʀᴇ's ᴀɴ ᴇʀʀᴏʀ ɪɴ ᴛʜᴇ ʙᴏᴛ, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴛᴏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ ᴀs sᴏᴏɴ ᴀs ᴩᴏssɪʙʟᴇ."
@@ -590,7 +590,7 @@ async def anonymous_check(client, CallbackQuery):
 
 
 @app.on_callback_query(
-    filters.regex("AnonPlaylists") & ~BANNED_USERS
+    filters.regex("VIVIPlaylists") & ~BANNED_USERS
 )
 @languageCB
 async def play_playlists_command(client, CallbackQuery, _):
