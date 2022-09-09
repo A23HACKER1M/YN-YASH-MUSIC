@@ -11,7 +11,7 @@ from config import BANNED_USERS
 from strings import get_command
 from VIVI import app
 from VIVI.misc import db
-from VIVI.utils import (Anonbin, get_channeplayCB,
+from VIVI.utils import (VIVbin, get_channeplayCB,
                               seconds_to_min)
 from VIVI.utils.database import (get_cmode, is_active_chat,
                                        is_music_playing)
