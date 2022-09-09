@@ -16,7 +16,7 @@ from VIVI.utils.exceptions import AssistantErr
 from VIVI.utils.inline.play import (stream_markup,
                                           telegram_markup)
 from VIVI.utils.inline.playlist import close_markup
-from VIVI.utils.pastebin import Anonbin
+from VIVI.utils.pastebin import VIVbin
 from VIVI.utils.stream.queue import put_queue, put_queue_index
 from VIVI.utils.thumbnails import gen_thumb
 
