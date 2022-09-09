@@ -48,8 +48,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("DevilsHeavenMF")
-                await self.one.join_chat("FallenXBots")
+                await self.one.join_chat("kakashi_bots_support")
+                await self.one.join_chat("kakashi_bots_updates")
             except:
                 pass
             assistants.append(1)
@@ -78,8 +78,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("DevilsHeavenMF")
-                await self.two.join_chat("FallenXBots")
+                await self.two.join_chat("kakashi_bots_support")
+                await self.two.join_chat("kakashi_bots_updates")
             except:
                 pass
             assistants.append(2)
@@ -108,8 +108,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("DevilsHeavenMF")
-                await self.three.join_chat("FallenXBots")
+                await self.three.join_chat("kakashi_bots_support")
+                await self.three.join_chat("kakashi_bots_updates")
             except:
                 pass
             assistants.append(3)
@@ -138,8 +138,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("DevilsHeavenMF")
-                await self.four.join_chat("FallenXBots")
+                await self.four.join_chat("kakashi_bots_support")
+                await self.four.join_chat("kakashi_bots_updates")
             except:
                 pass
             assistants.append(4)
@@ -168,8 +168,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("DevilsHeavenMF")
-                await self.five.join_chat("FallenXBots")
+                await self.five.join_chat("kakashi_bots_support")
+                await self.five.join_chat("kakashi_bots_updates")
             except:
                 pass
             assistants.append(5)
