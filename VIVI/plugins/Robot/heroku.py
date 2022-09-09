@@ -21,7 +21,7 @@ from VIVI.utils.database import (get_active_chats,
                                        remove_active_chat,
                                        remove_active_video_chat)
 from VIVI.utils.decorators.language import language
-from VIVI.utils.pastebin import Anonbin
+from VIVI.utils.pastebin import VIVbin
 
 # Commands
 GETLOG_COMMAND = get_command("GETLOG_COMMAND")
