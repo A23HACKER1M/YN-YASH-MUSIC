@@ -1,7 +1,7 @@
 {
     "name": "VIVI",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/56d1760224589ee370186.jpg",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls. Powered by @OTAKU_BINGE ",
+    "logo": "https://telegra.ph/file/4a8ab226fba0b46a1f33e.jpg",
     "keywords": [
     "python3",
     "telegram",
