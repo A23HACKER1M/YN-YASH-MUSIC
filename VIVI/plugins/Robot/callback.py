@@ -7,7 +7,7 @@ from config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
                     SOUNCLOUD_IMG_URL, STREAM_IMG_URL,
                     TELEGRAM_AUDIO_URL, TELEGRAM_VIDEO_URL, adminlist)
 from VIVI import YouTube, app
-from VIVI.core.call import Anon
+from VIVI.core.call import VIV
 from VIVI.misc import SUDOERS, db
 from VIVI.utils.database import (is_active_chat,
                                        is_music_playing, set_loop,
