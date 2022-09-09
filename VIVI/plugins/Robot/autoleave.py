@@ -58,7 +58,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await Anon.stop_stream(chat_id)
+                    await VIV.stop_stream(chat_id)
                 except:
                     continue
                 try:
