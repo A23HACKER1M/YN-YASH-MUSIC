@@ -16,7 +16,7 @@ from VIVI.utils.decorators.language import language, languageCB
 from VIVI.utils.inline.playlist import (botplaylist_markup,
                                               get_playlist_markup,
                                               warning_markup)
-from VIVI.utils.pastebin import Anonbin
+from VIVI.utils.pastebin import VIVbin
 from VIVI.utils.stream.stream import stream
 
 # Command
