@@ -63,7 +63,7 @@ async def init():
     except:
         pass
     await VIV.decorators()
-    LOGGER("VIVI").info("Music Bot Started Successfully, Now Gib your girlfriend chumt to @anonymous_was_bot")
+    LOGGER("VIVI").info("Music Bot Started Successfully, ENJOY PEEPS")
     await idle()
 
 
