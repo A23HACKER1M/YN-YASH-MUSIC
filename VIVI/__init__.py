@@ -1,4 +1,4 @@
-from VIVI.core.bot import VIVIbot
+from VIVI.core.bot import VIVIBot
 from VIVI.core.dir import dirr
 from VIVI.core.git import git
 from VIVI.core.userbot import Userbot
