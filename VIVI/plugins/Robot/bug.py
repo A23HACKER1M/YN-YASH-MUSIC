@@ -8,12 +8,12 @@ from pyrogram.types import (
     Message,
 )
 
-from AnonX import app as Client
+from VIVI import app as Client
 from config import (
     OWNER_ID as owner_id,
 )
 
-SUPPORT = "DevilsHeavenMF"
+SUPPORT = "kakashi_bots_support"
 
 def content(msg: Message) -> [None, str]:
     text_to_return = msg.text
