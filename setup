@@ -76,7 +76,7 @@ node(){
 repo(){
 	# Get git repo if the installer is runned standalone
 	[[ ! "VIVI-MUSIC-ROBOT" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
-	git clone https://github.com/Siddharth721/VIVI-MUSIC-ROBOT &&  cd VIVI-MUSIC-ROBOT
+	git clone https://github.com/otakubinge/VIVI-MUSIC-ROBOT &&  cd VIVI-MUSIC-ROBOT
 }
 
 
