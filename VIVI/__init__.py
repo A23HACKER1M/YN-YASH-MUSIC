@@ -1,4 +1,4 @@
-from VIVI.core.bot import VIVI-MUSIC-ROBOT
+from VIVI.core.bot import VIVIbot
 from VIVI.core.dir import dirr
 from VIVI.core.git import git
 from VIVI.core.userbot import Userbot
