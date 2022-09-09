@@ -37,7 +37,7 @@ async def init():
         and not config.SPOTIFY_CLIENT_SECRET
     ):
         LOGGER("VIVI").warning(
-            "Spotify Client Id & Secret not added, Chutiya Saala ek itni simple cheej nahi laa paaya."
+            "Spotify Client Id & Secret not added, padh le bc abhi bhi time h ya fir gamd dede @SIXTH_H0KAGE ladki ho tabhi dena mai gay nhi ."
         )
     try:
         users = await get_gbanned()
