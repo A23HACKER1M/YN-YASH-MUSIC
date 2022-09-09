@@ -5,7 +5,7 @@ import config
 from config import BANNED_USERS
 from strings import get_command
 from VIVI import YouTube, app
-from VIVI.core.call import Anon
+from VIVI.core.call import VIV
 from VIVI.misc import db
 from VIVI.utils.database import get_loop
 from VIVI.utils.decorators import AdminRightsCheck
