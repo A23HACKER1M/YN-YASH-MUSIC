@@ -311,16 +311,16 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⇆ sʜᴜғғʟᴇ ⇆",
+                text="🔷 sʜᴜғғʟᴇ 🔷",
                 callback_data=f"ADMIN Shuffle|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="↻ ʟᴏᴏᴩ ↻", callback_data=f"ADMIN Loop|{chat_id}"
+                text="🔷 ʟᴏᴏᴩ 🔷", callback_data=f"ADMIN Loop|{chat_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="↻ ʙᴀᴄᴋ ↻",
+                text="🔷 ʙᴀᴄᴋ 🔷",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
         ],
