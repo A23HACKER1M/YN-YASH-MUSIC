@@ -13,7 +13,7 @@ async def auto_leave():
         while not await asyncio.sleep(
             config.AUTO_LEAVE_ASSISTANT_TIME
         ):
-            from AnonX.core.userbot import assistants
+            from VIVI.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)
@@ -28,7 +28,7 @@ async def auto_leave():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
-                                and chat_id != -1001686672798
+                                and chat_id != -1001585566410
                             ):
                                 if not await is_active_chat(chat_id):
                                     try:
