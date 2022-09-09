@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup
 
 import config
 from VIVI import Carbon, YouTube, app
-from VIVI.core.call import Anon
+from VIVI.core.call import VIV
 from VIVI.misc import db
 from VIVI.utils.database import (add_active_chat,
                                        add_active_video_chat,
