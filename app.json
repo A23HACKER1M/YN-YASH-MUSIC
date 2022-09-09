@@ -50,7 +50,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ",
+        "value": "ᬊᬁ࿔•Ⓥⓘⓥⓘ•࿐ᴍᴜsɪᴄ​",
         "required": false
       },
       "SPOTIFY_CLIENT_ID": {
@@ -75,12 +75,12 @@
       },
       "PING_IMG_URL": {
         "description": "The pic which will be shown when you give the /ping cmd to the bot.",
-        "value": "",
+        "value": "https://telegra.ph/file/1fb934326ef84ffd7f322.jpg",
         "required": false
       },
       "START_IMG_URL": {
         "description": "The pic which will be shown when you /start the bot in private.",
-        "value": "",
+        "value": "https://telegra.ph/file/1fb934326ef84ffd7f322.jpg",
         "required": false
       },
       "HEROKU_API_KEY": {
@@ -100,12 +100,12 @@
       },
       "SUPPORT_GROUP": {
         "description": "Link of your support group ! Channel ki id mat daal dena bsdk.",
-        "value": "https://t.me/DevilsHeavenMF",
+        "value": "https://t.me/kakashi_bots_support",
         "required": false
       },
       "SUPPORT_CHANNEL": {
         "description": "Link of your telegram channel.",
-        "value": "https://t.me/Akhand_Words",
+        "value": "https://t.me/kakashi_bots_updates",
         "required": false
       }
     },
