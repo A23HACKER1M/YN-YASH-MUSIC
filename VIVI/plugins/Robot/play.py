@@ -12,7 +12,7 @@ from config import BANNED_USERS, lyrical
 from strings import get_command
 from VIVI import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
-from VIVI.core.call import Anon
+from VIVI.core.call import VIV
 from VIVI.utils import seconds_to_min, time_to_seconds
 from VIVI.utils.channelplay import get_channeplayCB
 from VIVI.utils.database import is_video_allowed
