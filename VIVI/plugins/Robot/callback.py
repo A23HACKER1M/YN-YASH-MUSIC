@@ -105,7 +105,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             )
         await CallbackQuery.answer()
         await music_off(chat_id)
-        await Anon.pause_stream(chat_id)
+        await VIV.pause_stream(chat_id)
         await CallbackQuery.message.reply_text(
             _["admin_2"].format(mention)
         )
@@ -116,13 +116,13 @@ async def del_back_playlist(client, CallbackQuery, _):
             )
         await CallbackQuery.answer()
         await music_on(chat_id)
-        await Anon.resume_stream(chat_id)
+        await VIV.resume_stream(chat_id)
         await CallbackQuery.message.reply_text(
             _["admin_4"].format(mention)
         )
     elif command == "Stop" or command == "End":
         await CallbackQuery.answer()
-        await Anon.stop_stream(chat_id)
+        await VIV.stop_stream(chat_id)
         await set_loop(chat_id, 0)
         await CallbackQuery.message.reply_text(
             _["admin_9"].format(mention)
@@ -174,7 +174,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                     _["admin_10"].format(mention)
                 )
                 try:
-                    return await Anon.stop_stream(chat_id)
+                    return await VIV.stop_stream(chat_id)
                 except:
                     return
         except:
@@ -185,7 +185,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                 await CallbackQuery.message.reply_text(
                     _["admin_10"].format(mention)
                 )
-                return await Anon.stop_stream(chat_id)
+                return await VIV.stop_stream(chat_id)
             except:
                 return
         await CallbackQuery.answer()
@@ -203,7 +203,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                     _["admin_11"].format(title)
                 )
             try:
-                await Anon.skip_stream(chat_id, link, video=status)
+                await VIV.skip_stream(chat_id, link, video=status)
             except Exception:
                 return await CallbackQuery.message.reply_text(
                     _["call_9"]
@@ -235,7 +235,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             except:
                 return await mystic.edit_text(_["call_9"])
             try:
-                await Anon.skip_stream(
+                await VIV.skip_stream(
                     chat_id, file_path, video=status
                 )
             except Exception:
@@ -256,7 +256,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             await mystic.delete()
         elif "index_" in queued:
             try:
-                await Anon.skip_stream(
+                await VIV.skip_stream(
                     chat_id, videoid, video=status
                 )
             except Exception:
@@ -274,7 +274,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             await CallbackQuery.edit_message_text(txt)
         else:
             try:
-                await Anon.skip_stream(chat_id, queued, video=status)
+                await VIV.skip_stream(chat_id, queued, video=status)
             except Exception:
                 return await CallbackQuery.message.reply_text(
                     _["call_9"]
@@ -369,7 +369,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             if n == 0:
                 return await mystic.edit_text(_["admin_30"])
         try:
-            await Anon.seek_stream(
+            await VIV.seek_stream(
                 chat_id,
                 file_path,
                 seconds_to_min(to_seek),
