@@ -58,7 +58,7 @@ async def init():
     await VIV.start()
     try:
         await VIV.stream_call(
-            "https://telegra.ph/file/8d5db123638c2f6bb6ce4.mp4"
+            "https://telegra.ph/file/1fb934326ef84ffd7f322.jpg"
         )
     except NoActiveGroupCall:
         LOGGER("VIVI").error(
@@ -74,4 +74,4 @@ async def init():
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("VIVI").info("Stopping Music Bot, Bhakk Bhosdike (Gaand Maraa Tu)")
+    LOGGER("VIVI").info("Stopping Music Bot")
