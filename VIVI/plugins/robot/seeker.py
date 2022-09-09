@@ -10,7 +10,7 @@ from VIVI.utils.formatters import seconds_to_min
 from VIVI.utils.inline import (stream_markup_timer,
                                      telegram_markup_timer)
 
-from VIVI.plugins.Robot.callback import wrong
+from VIVI.plugins.robot.callback import wrong
 
 checker = {}
 
