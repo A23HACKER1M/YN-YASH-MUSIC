@@ -3,7 +3,7 @@ from datetime import datetime
 
 import config
 from VIVI import app
-from VIVI.core.call import Anon, autoend
+from VIVI.core.call import VIV, autoend
 from VIVI.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
