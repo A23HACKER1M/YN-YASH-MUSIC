@@ -17,7 +17,7 @@
 
 ## Workflows hosting
 
-<h4>Click the button below to import this code. How to host? Simply import this code then fill your vars in config.py then go to Actions and check build logs!</h4>
+<h4>Click the button below that will redirect you to telegram there are all instructions given!</h4>
 <p align="center"><a href="https://t.me/kakashi_bots_updates/21"><img src="https://img.shields.io/badge/Workflow%20Deploy-black?style=for-the-badge&logo=github" width="200""/></a>
 
 # ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
