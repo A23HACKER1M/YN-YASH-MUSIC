@@ -14,7 +14,7 @@
 </p>
 
 > [DEMO BOT](https://t.me/ViviXsuperMusicBot)
-
+> [WATCH TUTORIAL](https://youtu.be/egLo_rWDLVU)
 ## Workflows hosting
 
 <h4>Click the button below that will redirect you to telegram there are all instructions given!</h4>
