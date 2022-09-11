@@ -67,7 +67,7 @@ async def gbanuser(client, message: Message, _):
         except Exception:
             pass
     await add_banned_user(user_id)
-    await message.reply_sticker("CAACAgUAAxkBAAIjZmKPbsuJzL3TVFQ7q2lc_rRuqa6xAAIyCQACHjuBVOwXUJB64QeSJAQ")
+    await message.reply_sticker("CAACAgUAAx0CZ9fqsgACE7tjHikjUJ1beVy23mG1zwXvI_-hIgACiwgAAhk08FRfhNDZJiyt4ikE")
     await message.reply_text(
         _["gban_6"].format(mention, number_of_chats)
     )
