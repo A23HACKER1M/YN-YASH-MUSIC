@@ -13,7 +13,7 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
-> [DEMO BOT](https://t.me/ViviXsuperMusicBot)
+> [DEMO BOT](https://t.me/ViviXsuperMusicBot)\n
 > [WATCH TUTORIAL](https://youtu.be/egLo_rWDLVU)
 ## Workflows hosting
 
